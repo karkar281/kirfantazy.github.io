@@ -1,0 +1,61 @@
+/* rebeccapurple */
+header{
+    background-color:rgba(230, 230, 230, 0.9);
+    position: sticky; 
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rebeccapurple;
+}
+h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @import url 'https://fonts.googleapis.com/css2?family=Oswald&display=swap';
+    font-family: 'Oswald', sans-serif;
+}
+main{
+    margin:50px 20%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 80px - 100px);
+}
+img{
+    width:calc(100%)
+}
+.p{
+    display: inline-block;
+    color: white;
+    background-color: #FFAD00;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+}
+/* display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap; */
+.footer{
+    position: relative;
+        
+}
+footer{
+    background-color: green;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
